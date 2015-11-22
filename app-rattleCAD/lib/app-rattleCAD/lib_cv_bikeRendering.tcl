@@ -1367,10 +1367,10 @@
             set BottomBracket         $BB_Position
             set RearWheel             [ rattleCAD::model::get_Position      RearWheel               $BB_Position ]
             set FrontWheel            [ rattleCAD::model::get_Position      FrontWheel              $BB_Position ]
-            set SeatPost_Saddle       [ rattleCAD::model::get_Position      SeatPostSaddle          $BB_Position ]
+            set SeatPost_Saddle       [ rattleCAD::model::get_Position      SeatPost_Saddle         $BB_Position ]
             set HandleBar             [ rattleCAD::model::get_Position      HandleBar               $BB_Position ]
-            set SeatTube_Ground       [ rattleCAD::model::get_Position      SeatTubeGround          $BB_Position ]
-            set Steerer_Ground        [ rattleCAD::model::get_Position      SteererGround           $BB_Position ]
+            set SeatTube_Ground       [ rattleCAD::model::get_Position      SeatTube_Ground         $BB_Position ]
+            set Steerer_Ground        [ rattleCAD::model::get_Position      Steerer_Ground          $BB_Position ]
             set Reference_HB          [ rattleCAD::model::get_Position      Reference_HB            $BB_Position ]
             set Reference_SN          [ rattleCAD::model::get_Position      Reference_SN            $BB_Position ]
            
